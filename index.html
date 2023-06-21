@@ -3,7 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
+    <title>Azkya Portfolio Website</title>
+    <link rel="icon" type="image/x-icon" href="./img/ak-favicon.png">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
@@ -41,7 +42,7 @@
         <nav>
           <div class="container">
             <div class="logo">
-              <img src="./img/ak-logo.png" alt="" />
+              <img src="./img/ak-favicon.png" alt="" />
             </div>
 
             <div class="links">
@@ -96,10 +97,6 @@
         <div class="container">
           <div class="section-header">
             <h3 class="title" data-title="What I Do">Services</h3>
-            <p class="text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
-              vero?
-            </p>
           </div>
 
           <div class="cards">
@@ -109,17 +106,6 @@
                 class="points points1 points-sq"
                 alt=""
               />
-              <div class="card" data-card="UI/UX">
-                <div class="card-content z-index">
-                  <img src="./img/design-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Web Design</h3>
-                  <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
-                    est suscipit itaque?
-                  </p>
-                  <a href="#" class="btn small">Read more</a>
-                </div>
-              </div>
             </div>
 
             <div class="card-wrap">
@@ -128,10 +114,8 @@
                   <img src="./img/code-icon.png" class="icon" alt="" />
                   <h3 class="title-sm">Web Development</h3>
                   <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Dolores suscipit nobis dolore?
+                    I can do web development using HTML, CSS, JavaScript, React.
                   </p>
-                  <a href="#" class="btn small">Read more</a>
                 </div>
               </div>
             </div>
@@ -147,10 +131,8 @@
                   <img src="./img/app-icon.png" class="icon" alt="" />
                   <h3 class="title-sm">App Development</h3>
                   <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatum hic veniam nihil.
+                    I can do web development using HTML, CSS, JavaScript, React, Ionic and Vue.
                   </p>
-                  <a href="#" class="btn small">Read more</a>
                 </div>
               </div>
             </div>
@@ -275,15 +257,18 @@
               </div>
             </div>
 
-            <div class="contact-form">
+            
+              <form action="https://formsubmit.co/azkyakhan1995@gmail.com" method="POST" class="contact-form" />
               <h3 class="title">Contact me</h3>
               <div class="row">
                 <input
+                  name="firstname"
                   type="text"
                   class="contact-input"
                   placeholder="First Name"
                 />
                 <input
+                name="lastname"
                   type="text"
                   class="contact-input"
                   placeholder="Last Name"
@@ -291,8 +276,8 @@
               </div>
 
               <div class="row">
-                <input type="text" class="contact-input" placeholder="Phone" />
-                <input type="email" class="contact-input" placeholder="Email" />
+                <input type="text" class="contact-input" placeholder="Phone" name="phone" />
+                <input type="email" class="contact-input" placeholder="Email" name="email" />
               </div>
 
               <div class="row">
@@ -302,25 +287,25 @@
                   placeholder="Message"
                 ></textarea>
               </div>
-              <a href="#" class="btn">Send</a>
-            </div>
+              <button type="submit" class="btn">Send</button>
+            </form>
           </div>
         </div>
       </section>
 
       <section class="hireme" id="hireme">
         <div class="container">
-          <h3 class="title">Roles and Responsibilities Handled</h3>
+          <h3 class="title">Hire Me !!!</h3>
             <ul class="my-roles">
-              <li>Research, design and write new e-commerce applications. </li>
-              <li>Develop existing programs by analyzing and identifying areas for modification. </li>
-              <li>Maintain systems by monitoring and correcting software defects. </li>
-              <li>Work closely with other staff, such as project managers, graphic artists, UX designers, other developers, systems analysts and sales and marketing professionals. </li>
-              <li>Work on creating interactive UI of e-commerce apps using Ionic and Vue.js. </li>
-              <li>Continually update technical knowledge and skills by attending in-house and external courses, reading manuals and accessing new applications. </li>
-              <li>Create content for LinkedIn and YouTube to inform youth of the technical terms. -    <a href="https://www.youtube.com/@ioniclearningcircle2187" target="_blank"><i class="fab fa-youtube"></i></a> <a href="https://www.youtube.com/@hotwaxdevelopernetwork5242" target="_blank"><i class="fab fa-youtube"></i></a> </li>
+              <li>Researched, designed and written new e-commerce applications. </li>
+              <li>Developed existing programs by analyzing and identifying areas for modification. </li>
+              <li>Maintained systems by monitoring and correcting software defects. </li>
+              <li>Worked closely with other staff, such as project managers, graphic artists, UX designers, other developers, systems analysts and sales and marketing professionals. </li>
+              <li>Worked on creating interactive UI of e-commerce apps using Ionic and Vue.js. </li>
+              <li>Continually updated technical knowledge and skills by attending in-house and external courses, reading manuals and accessing new applications. </li>
+              <li>Created content for LinkedIn and YouTube to inform youth of the technical terms. -    <a href="https://www.youtube.com/@ioniclearningcircle2187" target="_blank"><i class="fab fa-youtube"></i></a> <a href="https://www.youtube.com/@hotwaxdevelopernetwork5242" target="_blank"><i class="fab fa-youtube"></i></a> </li>
             </ul>
-          <a href="#" class="btn">Hire me</a>
+          <a href="#contact" class="btn">Hire me</a>
         </div>
       </section>
     </main>
@@ -331,8 +316,7 @@
           <div class="grid-4-col footer-about">
             <h3 class="title-sm">About</h3>
             <p class="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-              officiis quo officia quia?
+              This is my Portfolio website
             </p>
           </div>
 
@@ -372,7 +356,7 @@
             </ul>
           </div>
 
-          <div class="grid-4-col footer-newstletter">
+          <!-- <div class="grid-4-col footer-newstletter">
             <h3 class="title-sm">Subscribe</h3>
             <p class="text">
               Lorem ipsum dolor, sit amet ipsum dolor sit amet.
@@ -383,7 +367,7 @@
                 <i class="fas fa-angle-right"></i>
               </a>
             </div>
-          </div>
+          </div> -->
         </div>
 
         <div class="bottom-footer">
